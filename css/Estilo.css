@@ -28,12 +28,37 @@ html{
   font-family: 'Nunito', sans-serif;
 }
 
-.listaMenu {
+.listaMenu{
     list-style: none;
     display: flex;
 }
+
+.navegableIndex :hover{
+opacity: 0.8;
+}
+.navegableCabanas :hover{
+  opacity: 0.8;
+  }
+.navegableServicios :hover{
+  opacity: 0.8;
+    }
+.navegableContacto :hover{
+  opacity: 0.8;
+   }
+.navegableUbicacion :hover{
+  opacity: 0.8;
+   }
+   .navegableCabana1 :hover{
+    opacity: 0.8;
+      }
+  .navegableCabana2 :hover{
+    opacity: 0.8;
+     }
+  .navegableCabana3 :hover{
+    opacity: 0.8;
+     }
   
-  .menuNavegable{
+  .menuNavegable1{
     margin: 3rem;
     font-size: medium;
     text-decoration:solid;
@@ -41,6 +66,39 @@ html{
     font-weight:700
   
   }
+  .menuNavegable2{
+    margin: 3rem;
+    font-size: medium;
+    text-decoration:solid;
+    color:black ;
+    font-weight:700
+  
+  }
+  .menuNavegable3{
+    margin: 3rem;
+    font-size: medium;
+    text-decoration:solid;
+    color:black ;
+    font-weight:700
+  
+  }
+  .menuNavegable4{
+    margin: 3rem;
+    font-size: medium;
+    text-decoration:solid;
+    color:black ;
+    font-weight:700
+  
+  }
+  .menuNavegable5{
+    margin: 3rem;
+    font-size: medium;
+    text-decoration:solid;
+    color:black ;
+    font-weight:700
+  
+  }
+
 
 .cabañasIndex{
   display: none;
@@ -478,7 +536,6 @@ margin: 2rem;
 .mainServicios h1{
  margin-left: 10rem;
 }
-
 /*tablet*/
 @media screen and (min-width: 480px) {
   .mainIndex{
@@ -612,8 +669,6 @@ header{
 .mainServicios h1{
  margin-left: 15rem;
  }
-  
-
 
 /*desktop*/
 @media screen and (min-width:1024px) {
@@ -856,8 +911,8 @@ html{
   .ubicacion{
     border-radius: 1rem;
     position: absolute;
-    top: 22rem;
     left: 25rem;
+    top: 22rem;
     transition: .5s ease all;
   }
   
@@ -927,3 +982,27 @@ html{
 display: none;
  }
 }
+.navegableIndex :hover{
+  opacity: 0.8;
+  }
+  .navegableCabanas :hover{
+    opacity: 0.8;
+    }
+  .navegableServicios :hover{
+    opacity: 0.8;
+      }
+  .navegableContacto :hover{
+    opacity: 0.8;
+     }
+  .navegableUbicacion :hover{
+    opacity: 0.8;
+     }
+     .navegableCabana1 :hover{
+      opacity: 0.8;
+        }
+    .navegableCabana2 :hover{
+      opacity: 0.8;
+       }
+    .navegableCabana3 :hover{
+      opacity: 0.8;
+       }
