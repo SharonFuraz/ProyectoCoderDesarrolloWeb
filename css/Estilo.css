@@ -48,6 +48,15 @@ opacity: 0.8;
 .navegableUbicacion :hover{
   opacity: 0.8;
    }
+   .navegableCabana1 :hover{
+    opacity: 0.8;
+      }
+  .navegableCabana2 :hover{
+    opacity: 0.8;
+     }
+  .navegableCabana3 :hover{
+    opacity: 0.8;
+     }
   
   .menuNavegable1{
     margin: 3rem;
@@ -106,7 +115,7 @@ opacity: 0.8;
     align-items:center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(../Assets/Costa\ Playa\ 1.jpg);
+    background-image: url(../Assets/CostaPlaya1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -714,7 +723,7 @@ html{
    align-items:center;
    justify-content: center;
    flex-direction: column;
-   background-image: url(../Assets/Costa\ Playa\ 1.jpg);
+   background-image: url(../Assets/CostaPlaya1.jpg);
    background-repeat: no-repeat;
    background-position: center center;
    background-attachment: fixed;
@@ -973,3 +982,27 @@ html{
 display: none;
  }
 }
+.navegableIndex :hover{
+  opacity: 0.8;
+  }
+  .navegableCabanas :hover{
+    opacity: 0.8;
+    }
+  .navegableServicios :hover{
+    opacity: 0.8;
+      }
+  .navegableContacto :hover{
+    opacity: 0.8;
+     }
+  .navegableUbicacion :hover{
+    opacity: 0.8;
+     }
+     .navegableCabana1 :hover{
+      opacity: 0.8;
+        }
+    .navegableCabana2 :hover{
+      opacity: 0.8;
+       }
+    .navegableCabana3 :hover{
+      opacity: 0.8;
+       }
