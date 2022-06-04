@@ -12,17 +12,6 @@
     margin: 1rem;
 }
 
-header{
-    background-color:white;
-    height: 8rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    justify-content: space-between;
-    
-}
 
 html{
   font-family: 'Nunito', sans-serif;
@@ -671,7 +660,7 @@ header{
  }
 
 /*desktop*/
-@media screen and (min-width:1024px) {
+@media screen and (min-width:768px) {
 
   .logoElComienzo{
     width: 10rem;
