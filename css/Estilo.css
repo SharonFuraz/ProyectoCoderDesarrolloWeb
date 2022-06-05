@@ -9,18 +9,14 @@
 
 .logoElComienzo{
     width: 10rem;
-    margin: 1rem;
 }
-
-
+.navbar{
+width: 100rem;
+}
 html{
   font-family: 'Nunito', sans-serif;
 }
 
-.listaMenu{
-    list-style: none;
-    display: flex;
-}
 
 .navegableIndex :hover{
 opacity: 0.8;
@@ -47,46 +43,6 @@ opacity: 0.8;
     opacity: 0.8;
      }
   
-  .menuNavegable1{
-    margin: 3rem;
-    font-size: medium;
-    text-decoration:solid;
-    color:black ;
-    font-weight:700
-  
-  }
-  .menuNavegable2{
-    margin: 3rem;
-    font-size: medium;
-    text-decoration:solid;
-    color:black ;
-    font-weight:700
-  
-  }
-  .menuNavegable3{
-    margin: 3rem;
-    font-size: medium;
-    text-decoration:solid;
-    color:black ;
-    font-weight:700
-  
-  }
-  .menuNavegable4{
-    margin: 3rem;
-    font-size: medium;
-    text-decoration:solid;
-    color:black ;
-    font-weight:700
-  
-  }
-  .menuNavegable5{
-    margin: 3rem;
-    font-size: medium;
-    text-decoration:solid;
-    color:black ;
-    font-weight:700
-  
-  }
 
 
 .cabañasIndex{
@@ -94,16 +50,11 @@ opacity: 0.8;
 }
 
 .mainIndex{
-  height: 45rem;
   background: #c5e48c;
 }
 
   .indexPlaya{
-    height: 35rem;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    flex-direction: column;
+    height: 38rem;
     background-image: url(../Assets/CostaPlaya1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -112,8 +63,10 @@ opacity: 0.8;
     font-size: medium;
     color:black;
     font-weight: bolder;
+    padding-top: 10rem;
    
   }
+  
   
   
   .grillaSection{
@@ -369,7 +322,6 @@ main p{
 @media screen and (max-width: 480px) {
   .logoElComienzo{
     width: 12rem;
-    margin: 1rem;
 }
 
 header{
@@ -664,54 +616,24 @@ header{
 
   .logoElComienzo{
     width: 10rem;
-    margin: 1rem;
 }
 
-header{
-    background-color:white;
-    height: 8rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    justify-content: space-between;
-    
-}
 
 html{
   font-family: 'Nunito', sans-serif;
 }
 
-.listaMenu {
-    list-style: none;
-    display: flex;
-}
-  
-  .menuNavegable{
-    margin: 3rem;
-    font-size: medium;
-    text-decoration:solid;
-    color:black ;
-    font-weight:700
-  
-  }
   .cabañasIndex{
     display: none;
   }
   
   
   .mainIndex{
-    height: 38rem;
     background: #c5e48c;
   }
   
 .indexPlaya{
    height: 38rem;
-   display: flex;
-   align-items:center;
-   justify-content: center;
-   flex-direction: column;
    background-image: url(../Assets/CostaPlaya1.jpg);
    background-repeat: no-repeat;
    background-position: center center;
@@ -995,3 +917,4 @@ display: none;
     .navegableCabana3 :hover{
       opacity: 0.8;
        }
+      
