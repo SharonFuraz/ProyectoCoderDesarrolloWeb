@@ -307,3 +307,117 @@ main p{
   border-radius: 1rem;
 }
 
+/*
+320px-480px: Mobile devices
+481px-768px: Ipods,Tablets
+769px-1024px: Small screens, Laptops
+1025px-1200px: Desktops, Large screens
+1201px and  more- extra Large screens, TV
+*/
+/* Small*/
+@media screen and (max-width: 576px){
+  .indexPlaya{
+    height: 50rem;
+  }
+.fotoIndex{
+  width: 10rem;
+}
+
+.mainIndex{
+  height: 100rem;
+}
+}
+/* Medium*/
+@media screen and (max-width: 768px){
+  .indexPlaya{
+    height: 45rem;}
+
+.fotoIndex{
+  width: 10rem;
+}
+.mainIndex{
+  height: 70rem;
+}
+}
+/* Medium*/
+@media screen and (min-width: 768px){
+  .indexPlaya{
+    height: 45rem;}
+
+.fotoIndex{
+  width: 15rem;
+}
+.mainIndex{
+  height: 80rem;
+}
+}
+
+/* Large*/
+@media screen and (min-width: 992px){
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Nunito:ital,wght@0,200;0,300;0,400;1,300;1,400&family=Raleway:ital,wght@0,200;1,100&family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
+/*reseteo de css*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+
+.logoElComienzo{
+    width: 10rem;
+}
+
+html{
+  font-family: 'Nunito', sans-serif;
+}
+
+.nav-link{
+  color: black;
+}
+
+.nav-item :hover{
+  color: #000000;
+  font-weight: bolder;
+}
+#nav-cabanas{
+  padding-top: 3rem;
+}
+.fotoIndex{
+  width: 20rem;
+  border:solid; 
+  color: #578e3e;
+}
+.mainIndex{
+  background: #c5e48cd7;
+  height: 60rem;
+}
+
+.indexPlaya{
+  height: 38rem;
+  background-image: url(../Assets/CostaPlaya1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: medium;
+  color:black;
+  font-weight: bolder;
+  padding-top: 10rem;
+   }
+  
+  .itemCabañasIndex{
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: 1rem;
+  }
+  .itemCabañasIndex:hover{
+    color: #000000;
+    font-weight: bolder;
+    
+  }
+ 
+  .cabañasIndex{
+    list-style: none;
+    padding-top: 2rem; ;
+  }
+
+}
