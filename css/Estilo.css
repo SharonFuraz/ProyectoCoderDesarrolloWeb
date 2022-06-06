@@ -20,37 +20,52 @@ html{
 }
 
 .nav-item :hover{
-  color: #578e3e;
+  color: #000000;
   font-weight: bolder;
 }
 #nav-cabanas{
   padding-top: 3rem;
 }
-.cabañasIndex{
-  display: none;
+.fotoIndex{
+  width: 20rem;
+  border:solid; 
+  color: #578e3e;
 }
-
 .mainIndex{
   background: #c5e48cd7;
+  height: 60rem;
 }
 
-  .indexPlaya{
-    height: 38rem;
-    background-image: url(../Assets/CostaPlaya1.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    font-size: medium;
-    color:black;
-    font-weight: bolder;
-    padding-top: 10rem;
-   
+.indexPlaya{
+  height: 38rem;
+  background-image: url(../Assets/CostaPlaya1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: medium;
+  color:black;
+  font-weight: bolder;
+  padding-top: 10rem;
+   }
+  
+  .itemCabañasIndex{
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: 1rem;
   }
-  
-  
-  
-  .grillaSection{
+  .itemCabañasIndex:hover{
+    color: #000000;
+    font-weight: bolder;
+    
+  }
+ 
+  .cabañasIndex{
+    list-style: none;
+    padding-top: 2rem; ;
+  }
+
+  grillaSection{
     background-color:#c5e48c;
     display:grid;
     grid-template-columns: 50% 50%;
