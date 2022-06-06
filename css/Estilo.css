@@ -18,16 +18,20 @@ html{
 .nav-link{
   color: black;
 }
+
 .nav-item :hover{
   color: #578e3e;
+  font-weight: bolder;
 }
-  
+#nav-cabanas{
+  padding-top: 3rem;
+}
 .cabañasIndex{
   display: none;
 }
 
 .mainIndex{
-  background: #c5e48c;
+  background: #c5e48cd7;
 }
 
   .indexPlaya{
@@ -60,7 +64,7 @@ html{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color:#c5e48c ;
+    background-color:#c5e48cd7 ;
   }
   
 
@@ -150,7 +154,7 @@ html{
   }
 
   .mainCabaña{
-    background-color: #c5e48c;
+    background-color: #c5e48cd7;
     height: 75rem;
    
   }
@@ -227,7 +231,7 @@ main p{
 }
 
 .grillaServicios{
-  background-color:#c5e48c;
+  background-color:#c5e48cd7;
   display:grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: min-content min-content;
@@ -269,7 +273,7 @@ main p{
 
 .mainServicios{
   height: 55rem;
-   background-color:#c5e48c ;
+   background-color:#c5e48cd7 ;
 }
 
 .mainServicios h1{
