@@ -324,7 +324,14 @@ main p{
 }
 
 .mainIndex{
-  height: 100rem;
+  height: 90rem;
+}
+.cabañasIndex{
+padding-top: 1rem;
+}
+itemCabañasIndex{
+display: flex;
+justify-content: center;
 }
 }
 /* Medium*/
