@@ -30,6 +30,28 @@ html{
   width: 20rem;
   border:solid; 
   color: #578e3e;
+  position:relative;
+  transition:2s transform;
+  display:block;
+  
+}
+.descripcionFoto{
+  position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:#c5e48c4c;    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color:rgb(0, 0, 0); font-weight: bold;
+    font-family:sans-serif;
+    transition: 0.5s opacity ease-in-out;
+    opacity:0;
+}
+.cabañasIndex:hover .descripcionFoto {
+    opacity: 1;    
 }
 .mainIndex{
   background: #c5e48cd7;
@@ -62,7 +84,13 @@ html{
  
   .cabañasIndex{
     list-style: none;
-    padding-top: 2rem; ;
+    padding-top: 2rem;
+    background: transparent;
+    display:inline-block;   
+    overflow:hidden; 
+    position:relative;
+    margin:1px 0;
+    padding:0;
   }
 
   grillaSection{
@@ -320,7 +348,8 @@ main p{
     height: 50rem;
   }
 .fotoIndex{
-  width: 10rem;
+  width: 15rem;
+  margin-left: 1rem;;
 }
 
 .mainIndex{
@@ -328,10 +357,13 @@ main p{
 }
 .cabañasIndex{
 padding-top: 1rem;
-}
-itemCabañasIndex{
 display: flex;
 justify-content: center;
+}
+.itemCabañasIndex{
+display: flex;
+justify-content: center;
+flex-direction: column;
 }
 }
 /* Medium*/
@@ -341,6 +373,7 @@ justify-content: center;
 
 .fotoIndex{
   width: 10rem;
+  margin: 2rem;
 }
 .mainIndex{
   height: 80rem;
@@ -353,6 +386,7 @@ justify-content: center;
 
 .fotoIndex{
   width: 15rem;
+  margin: 2rem;
 }
 .mainIndex{
   height: 80rem;
@@ -411,17 +445,6 @@ html{
   padding-top: 10rem;
    }
   
-  .itemCabañasIndex{
-    color: #000000;
-    text-decoration: none;
-    padding-bottom: 1rem;
-  }
-  .itemCabañasIndex:hover{
-    color: #000000;
-    font-weight: bolder;
-    
-  }
- 
   .cabañasIndex{
     list-style: none;
     padding-top: 2rem; ;
