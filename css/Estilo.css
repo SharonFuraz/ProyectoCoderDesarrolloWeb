@@ -54,7 +54,7 @@ html{
     opacity: 1;    
 }
 .mainIndex{
-  background: #c5e48cd7;
+  background: #c5e48cfe;
   height: 60rem;
 }
 
@@ -93,7 +93,7 @@ html{
     padding:0;
   }
 
-  grillaSection{
+  .grillaSection{
     background-color:#c5e48c;
     display:grid;
     grid-template-columns: 50% 50%;
@@ -155,18 +155,21 @@ html{
 
   }
 
-  h2{
+  h5{
      margin: 1rem;
   }  
-  h3{
+  h2{
+    margin: 3rem;
+  }
+  h5{
     margin: 1rem;
   }
-  .cabaña h1{
+  .cabaña h4{
     margin: 1rem;
     text-decoration: underline;
 
   }
-  .cabaña h2{
+  .cabaña h6{
     margin: 1rem;
      font-size: medium;
      text-decoration: underline;
@@ -182,48 +185,20 @@ html{
     margin-bottom: 4rem;
   }
 
-  .cabañas{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    font-size: medium;
-    color:black;
-    font-weight: bold;
-    margin-left: 10rem;
-    padding-top: 2rem;
-    list-style:none;
-    text-decoration: none;
-  }
+  
 
   .mainCabaña{
-    background-color: #c5e48cd7;
-    height: 75rem;
+    background-color: #c5e48c;
+    height: 78rem;
    
   }
-  .itemCabañas{
-    margin: 2rem;
-    font-size: medium;
-    text-decoration:solid;
-    color:black ;
-    font-weight: bold;
-  }
   
-.foto img{
+.foto{
+  margin-top: 20rem;
   width: 36rem;
-  position: absolute;
-  right: 1rem;
-  top: 25rem;
   grid-area:foto;
-  border: solid;color: #578e3e;
 }
 
-.fotoMobile{
-  display: none;
-}
-.fotoTablet{
-  display: none;
-}
 footer{
   background: rgb(117,166,28);
 background: radial-gradient(circle, rgba(117,166,28,1) 0%, rgba(149,190,72,1) 46%, rgba(143,168,93,1) 100%);
@@ -238,8 +213,6 @@ background: radial-gradient(circle, rgba(117,166,28,1) 0%, rgba(149,190,72,1) 46
 }
 .instagram{
   width: 2.1rem;
-
-  
   }
   
   .facebook{
@@ -274,7 +247,7 @@ main p{
 }
 
 .grillaServicios{
-  background-color:#c5e48cd7;
+  background-color:#c5e48c;
   display:grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: min-content min-content;
@@ -316,7 +289,7 @@ main p{
 
 .mainServicios{
   height: 55rem;
-   background-color:#c5e48cd7 ;
+   background-color:#c5e48c ;
 }
 
 .mainServicios h1{
@@ -372,8 +345,8 @@ flex-direction: column;
     height: 45rem;}
 
 .fotoIndex{
-  width: 10rem;
-  margin: 2rem;
+  width: 12.12rem;
+  margin: 1rem;
 }
 .mainIndex{
   height: 80rem;
