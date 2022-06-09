@@ -187,13 +187,12 @@ html{
 
   .mainCabaña{
     background-color: #c5e48c;
-    height: 78rem;
    
   }
   
 .foto{
-  margin-top: 20rem;
-  width: 36rem;
+  margin-top: 15rem;
+  width: 32rem;
   grid-area:foto;
   border: solid;color: #578e3e;
 }
@@ -279,11 +278,12 @@ main p{
     list-style:none;
     text-decoration: none;
     margin-left: 3rem;
+    margin-top: 1rem;
     grid-area: listaServicios;
 }
 
 .listaServicios li{
-  margin: 1rem;
+  margin:1rem;
 }
 
 .mainServicios{
@@ -324,9 +324,6 @@ main p{
   margin-left: 1rem;;
 }
 
-.mainIndex{
-  height: 90rem;
-}
 .cabañasIndex{
 padding-top: 1rem;
 display: flex;
@@ -337,6 +334,11 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 }
+.foto{
+  display: 10rem;
+}
+
+
 }
 /* Medium*/
 @media screen and (max-width: 768px){
@@ -347,8 +349,9 @@ flex-direction: column;
   width: 12.12rem;
   margin: 1rem;
 }
-.mainIndex{
-  height: 80rem;
+
+.foto{
+  width: 20rem;
 }
 }
 /* Medium*/
@@ -360,10 +363,11 @@ flex-direction: column;
   width: 15rem;
   margin: 2rem;
 }
-.mainIndex{
-  height: 80rem;
+.foto{
+  width: 25rem;
 }
 }
+
 
 /* Large*/
 @media screen and (min-width: 992px){
@@ -421,5 +425,51 @@ html{
     list-style: none;
     padding-top: 2rem; ;
   }
+  .grillaSection{
+    background-color:#c5e48c;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: min-content min-content ;
+    grid-template-areas: 
+    "cabaña foto";
+    }
 
+  h5{
+     margin: 1rem;
+  }  
+  h2{
+    margin: 3rem;
+  }
+  h5{
+    margin: 1rem;
+  }
+  .cabaña h4{
+    margin: 1rem;
+    text-decoration: underline;
+
+  }
+  .cabaña h6{
+    margin: 1rem;
+     font-size: medium;
+     text-decoration: underline;
+  }
+.cabaña{
+  font-size: small;
+  margin-left: 3rem;
+  margin-top: 4rem;
+  grid-area: cabaña;
+}
+
+
+  .mainCabaña{
+    background-color: #c5e48c;
+   
+  }
+  
+.foto{
+  margin-top: 15rem;
+  width: 32rem;
+  grid-area:foto;
+  border: solid;color: #578e3e;
+}
 }
