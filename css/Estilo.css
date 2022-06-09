@@ -185,8 +185,6 @@ html{
     margin-bottom: 4rem;
   }
 
-  
-
   .mainCabaña{
     background-color: #c5e48c;
     height: 78rem;
@@ -197,6 +195,7 @@ html{
   margin-top: 20rem;
   width: 36rem;
   grid-area:foto;
+  border: solid;color: #578e3e;
 }
 
 footer{
