@@ -55,11 +55,9 @@ html{
 }
 .mainIndex{
   background: #c5e48cfe;
-  height: 60rem;
 }
 
 .indexPlaya{
-  height: 38rem;
   background-image: url(../Assets/CostaPlaya1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -68,7 +66,6 @@ html{
   font-size: medium;
   color:black;
   font-weight: bolder;
-  padding-top: 10rem;
    }
   
   .itemCabañasIndex{
@@ -458,11 +455,9 @@ html{
 }
 .mainIndex{
   background: #c5e48cfe;
-  height: 60rem;
 }
 
 .indexPlaya{
-  height: 38rem;
   background-image: url(../Assets/CostaPlaya1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -471,7 +466,6 @@ html{
   font-size: medium;
   color:black;
   font-weight: bolder;
-  padding-top: 10rem;
    }
   
   .itemCabañasIndex{
