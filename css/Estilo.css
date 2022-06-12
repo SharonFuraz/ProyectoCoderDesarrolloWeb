@@ -150,7 +150,7 @@ html {
   font-size: medium;
   color: black;
   font-weight: bold;
-  padding-bottom: 35rem;
+  padding-bottom: 10rem;
 
 }
 .fotoAdicional{
@@ -241,11 +241,12 @@ main p {
 }
 
 .ubicacion {
+  width: 40rem;
+  height:30rem;
   border-radius: 1rem;
-  position: absolute;
-  top: 20rem;
-  left: 30rem;
+  position: relative;
   transition: .5s ease all;
+  top: 2rem;
 }
 
 
@@ -322,11 +323,6 @@ main p {
     display: 10rem;
   }
 
-
-  .ubicacion {
-    position: relative;
-  }
-
   .mapaGrande:hover {
     display: none;
   }
@@ -347,7 +343,9 @@ main p {
     display: flex;
     flex-direction:column;
   }
-  
+  .ubicacion{
+  width: 18rem;
+  height:14rem; }
 }
 
 /* Medium*/
@@ -377,10 +375,6 @@ main p {
   }
 
 
-  .ubicacion {
-    position: relative;
-  }
-
   .mapaGrande:hover {
     display: none;
   }
@@ -397,6 +391,9 @@ main p {
     display: flex;
     flex-direction:column;
   }
+  .ubicacion{
+    width: 20rem;
+    height:15rem; }
 }
 
 /* Medium*/
@@ -415,8 +412,4 @@ main p {
     margin-right: 2rem;
   }
 
-  .ubicacion {
-    left: 5rem;
-  }
-  
 }
