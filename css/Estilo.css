@@ -108,7 +108,11 @@ html {
 }
 
 .mainContacto {
-  background-color: #c5e48cd7;
+  background-image: url(../Assets/Costaplaya2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 
