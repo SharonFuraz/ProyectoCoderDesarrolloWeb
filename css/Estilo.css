@@ -28,7 +28,7 @@ html {
   padding-top: 3rem;
 }
 
-.fotoIndex {
+.index__foto {
   width: 20rem;
   border: solid;
   color: #578e3e;
@@ -38,7 +38,7 @@ html {
 
 }
 
-.descripcionFoto {
+.index__descripcion {
   position: absolute;
   left: 0;
   top: 0;
@@ -55,15 +55,15 @@ html {
   opacity: 0;
 }
 
-.cabañasIndex:hover .descripcionFoto {
+.index__cabañas:hover .index__descripcion {
   opacity: 1;
 }
 
-.mainIndex {
+.index {
   background: #c5e48cfe;
 }
 
-.indexPlaya {
+.index__playa {
   background-image: url(../Assets/CostaPlaya1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -74,27 +74,15 @@ html {
   font-weight: bolder;
 }
 
-.itemCabañasIndex {
-  color: #000000;
-  text-decoration: none;
-  padding-bottom: 1rem;
-}
-
-.itemCabañasIndex:hover {
-  color: #000000;
-  font-weight: bolder;
-
-}
-
-.cabañasIndex {
+.index__cabañas {
   list-style: none;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background: transparent;
   display: inline-block;
   overflow: hidden;
   position: relative;
   margin: 1px 0;
-  padding: 0;
 }
 
 /* principal */
@@ -108,11 +96,7 @@ html {
 }
 
 .mainContacto {
-  background-image: url(../Assets/Costaplaya2.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: #c5e48cd7;
 }
 
 
@@ -157,20 +141,20 @@ html {
   padding-bottom: 10rem;
 
 }
-.fotoAdicional{
+.adicional__foto{
   border:solid;color: #578e3e;
 }
-.infoContainer {
+.adicional__container {
   padding: 6rem 0;
   background-color: white;
 }
 
-.info h2 {
+.adicional__informacion h2 {
   margin: auto auto 2rem 0;
   
 }
 
-.info p {
+.adicional__informacion p {
   width: 80%;
   margin: 0 auto auto 0;
 }
@@ -215,23 +199,23 @@ html {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-footer {
+.direccion {
   background: rgb(117, 166, 28);
   background: radial-gradient(circle, rgba(117, 166, 28, 1) 0%, rgba(149, 190, 72, 1) 46%, rgba(143, 168, 93, 1) 100%);
 
 }
 
-.instagram {
+.direccion__instagram {
   width: 2.1rem;
 }
 
-.facebook {
+.direccion__facebook {
   width: 1.7rem;
   margin-right: 2rem;
 
 }
 
-.textoDireccion {
+.direccion__texto {
   text-decoration: solid;
   color: black;
   font-weight: bold;
@@ -303,24 +287,18 @@ main p {
 */
 /* Small*/
 @media screen and (max-width: 576px) {
-  .indexPlaya {
+  .index__playa {
     height: 50rem;
   }
 
-  .fotoIndex {
+  .index__foto {
     width: 100%;
   }
 
-  .cabañasIndex {
+  .index__cabañas {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
-  }
-
-  .itemCabañasIndex {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
   }
 
   .foto {
@@ -330,12 +308,12 @@ main p {
   .mapaGrande:hover {
     display: none;
   }
-  .info h2 {
+  .adicional__informacion h2 {
     margin: 1rem auto 1rem auto;
     
   }
   
-  .info p {
+  .adicional__informacion p {
     width: 80%;
     margin: 1rem auto 1rem auto;
   }
@@ -363,31 +341,27 @@ main p {
 
   .foto {
     margin-top: 3rem;
+    width: 20rem;
   }
 
-  .indexPlaya {
+  .index__playa {
     height: 45rem;
   }
 
-  .fotoIndex {
+  .index__foto {
     width: 12.12rem;
     margin: 1rem;
   }
 
-  .foto {
-    width: 20rem;
-  }
-
-
   .mapaGrande:hover {
     display: none;
   }
-  .info h2 {
+  .adicional__informacion h2 {
     margin: 1rem auto 1rem auto;
     
   }
   
-  .info p {
+  .adicional__informacion p {
     width: 80%;
     margin: 1rem auto 1rem auto;
   }
@@ -402,11 +376,11 @@ main p {
 
 /* Medium*/
 @media screen and (min-width: 768px) {
-  .indexPlaya {
+  .index__playa {
     height: 45rem;
   }
 
-  .fotoIndex {
+  .index_foto {
     width: 15rem;
     margin: 2rem;
   }
