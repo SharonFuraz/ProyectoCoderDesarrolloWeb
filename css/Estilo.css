@@ -77,12 +77,29 @@ html {
 .index__cabañas {
   list-style: none;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
   background: transparent;
   display: inline-block;
   overflow: hidden;
   position: relative;
   margin: 1px 0;
+}
+.adicional__foto{
+  border:solid;color: #578e3e;
+}
+.adicional{
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.adicional__titulo {
+  margin: auto auto 2rem 0;
+  
+}
+
+.adicional__parrafo {
+  width: 80%;
+  margin: 0 auto auto 0;
 }
 
 /* principal */
@@ -93,6 +110,13 @@ html {
   grid-template-rows: min-content min-content;
   grid-template-areas:
     "cabaña foto";
+}
+.grilla__foto {
+  margin-top: 15rem;
+  width: 32rem;
+  grid-area: foto;
+  border: solid;
+  color: #578e3e;
 }
 
 .contacto {
@@ -141,31 +165,28 @@ html {
   padding-bottom: 10rem;
 
 }
-.adicional__foto{
-  border:solid;color: #578e3e;
-}
-.adicional__container {
-  padding: 6rem 0;
-  background-color: white;
-}
-
-.adicional__informacion h2 {
-  margin: auto auto 2rem 0;
-  
+.ubicacion__mapaCabañas {
+  width: 40rem;
+  height:30rem;
+  border-radius: 1rem;
+  position: relative;
+  transition: .5s ease all;
+  top: 2rem;
 }
 
-.adicional__informacion p {
-  width: 80%;
-  margin: 0 auto auto 0;
+.ubicacion__mapa :hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  border-radius: 1rem;
 }
-
-.cabaña h4 {
+.cabaña__titulo {
   margin: 1rem;
   text-decoration: underline;
 
 }
 
-.cabaña h6 {
+.cabaña__planta {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: medium;
@@ -178,22 +199,13 @@ html {
   margin-top: 4rem;
   grid-area: cabaña;
 }
-
-.contacto__infoDeContacto {
-  margin-bottom: 4rem;
-}
-
 .cabañas {
   background-color: #c5e48c;
 
 }
 
-.grilla__foto {
-  margin-top: 15rem;
-  width: 32rem;
-  grid-area: foto;
-  border: solid;
-  color: #578e3e;
+.contacto__infoDeContacto {
+  margin-bottom: 4rem;
 }
 
 .carousel-inner{
@@ -223,22 +235,6 @@ html {
   padding: 1.5rem;
 }
 
-.servicios p {
-  margin: 1rem;
-  font-size: larger;
-
-}
-
-.ubicacion__mapaCabañas {
-  width: 40rem;
-  height:30rem;
-  border-radius: 1rem;
-  position: relative;
-  transition: .5s ease all;
-  top: 2rem;
-}
-
-
 .servicios__fotoHamacas {
   position: relative;
   top: 2rem;
@@ -260,24 +256,17 @@ html {
   padding-bottom: 4rem;
 }
 
-.servicios__lista h2 {
+.servicios__titulo {
   margin: 1rem auto 2rem 0;
   text-decoration: underline;
 }
 
-.servicios__lista p {
+.servicios__item {
   width: 80%;
   margin: 0rem auto auto 0rem;
   padding-left: 1rem;
-}
-
-
-.ubicacion__mapa :hover {
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.3);
-  border-radius: 1rem;
-}
+  font-size: larger;
+   }
 
 /*
 320px-480px: Mobile devices
@@ -309,12 +298,12 @@ html {
   .ubicacion__mapa:hover {
     display: none;
   }
-  .adicional__informacion h2 {
+  .adicional__titulo{
     margin: 1rem auto 1rem auto;
     
   }
   
-  .adicional__informacion p {
+  .adicional__parrafo {
     width: 80%;
     margin: 1rem auto 1rem auto;
   }
@@ -357,12 +346,12 @@ html {
   .ubicacion_mapa:hover {
     display: none;
   }
-  .adicional__informacion h2 {
+  .adicional__titulo {
     margin: 1rem auto 1rem auto;
     
   }
   
-  .adicional__informacion p {
+  .adicional__parrafo{
     width: 80%;
     margin: 1rem auto 1rem auto;
   }

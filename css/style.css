@@ -1,0 +1,190 @@
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+.index {
+  background: #c5e48cfe; }
+  .index__descripcion {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #c5e48c4c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: 0.5s opacity ease-in-out;
+    opacity: 0; }
+  .index__cabañas:hover .index__descripcion {
+    opacity: 1; }
+  .index__playa {
+    background-image: url(../Assets/CostaPlaya1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: medium;
+    color: black;
+    font-weight: bolder; }
+  .index__cabañas {
+    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    background: transparent;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    margin: 1px 0; }
+  .index__foto {
+    width: 20rem;
+    border: solid;
+    color: #578e3e;
+    position: relative;
+    transition: 2s transform;
+    display: block; }
+
+.adicional {
+  padding: 6rem 0;
+  background-color: white; }
+  .adicional__foto {
+    border: solid;
+    color: #578e3e; }
+  .adicional__titulo {
+    margin: auto auto 2rem 0; }
+  .adicional__parrafo {
+    width: 80%;
+    margin: 0 auto auto 0; }
+
+.grilla {
+  background-color: #c5e48c;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: min-content min-content;
+  grid-template-areas: "cabaña foto"; }
+  .grilla__foto {
+    margin-top: 15rem;
+    width: 32rem;
+    grid-area: foto;
+    border: solid;
+    color: #578e3e; }
+
+.contacto {
+  background-color: #c5e48cd7; }
+  .contacto__itemFormulario {
+    margin: 0.4rem 2rem 0.4rem 2rem;
+    background-color: #94c080;
+    padding: 3px;
+    border-radius: 4px; }
+  .contacto__boton {
+    border: none;
+    width: 60%;
+    background-color: #578e3e;
+    padding: 10px;
+    margin-left: 3rem; }
+  .contacto__botonEnviar :hover {
+    transition: all 0.3s ease;
+    background: #75a61c;
+    font-weight: bold; }
+  .contacto__formulario {
+    background-color: #94c080;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .contacto__infoDeContacto {
+    margin-bottom: 4rem; }
+
+.ubicacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #c5e48c;
+  font-size: medium;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 10rem; }
+  .ubicacion__mapaCabañas {
+    width: 40rem;
+    height: 30rem;
+    border-radius: 1rem;
+    position: relative;
+    transition: .5s ease all;
+    top: 2rem; }
+  .ubicacion__mapa :hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    border-radius: 1rem; }
+
+.cabaña {
+  font-size: small;
+  margin-left: 3rem;
+  margin-top: 4rem;
+  grid-area: cabaña; }
+  .cabaña__titulo {
+    margin: 1rem;
+    text-decoration: underline; }
+  .cabaña__planta {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: medium;
+    text-decoration: underline; }
+
+.cabañas {
+  background-color: #c5e48c; }
+
+.ubicacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #c5e48c;
+  font-size: medium;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 10rem; }
+  .ubicacion__mapaCabañas {
+    width: 40rem;
+    height: 30rem;
+    border-radius: 1rem;
+    position: relative;
+    transition: .5s ease all;
+    top: 2rem; }
+  .ubicacion__mapa :hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    border-radius: 1rem; }
+
+.servicios__fotoHamacas {
+  position: relative;
+  top: 2rem;
+  border: solid;
+  color: #578e3e; }
+
+.servicios__fotoParrilla {
+  position: relative;
+  top: 3rem;
+  border: solid;
+  color: #578e3e; }
+
+.servicios__container {
+  background-color: #c5e48c;
+  padding-left: 2rem;
+  padding-bottom: 4rem; }
+
+.servicios__titulo {
+  margin: 1rem auto 2rem 0;
+  text-decoration: underline; }
+
+.servicios__item {
+  width: 80%;
+  margin: 0rem auto auto 0rem;
+  padding-left: 1rem;
+  font-size: larger; }

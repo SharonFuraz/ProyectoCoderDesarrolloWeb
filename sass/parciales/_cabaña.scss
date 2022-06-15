@@ -1,0 +1,19 @@
+.cabaña {
+    font-size: small;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    grid-area: cabaña;
+&__titulo {
+        margin: 1rem;
+        text-decoration: underline;
+      }   
+ &__planta {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: medium;
+        text-decoration: underline;
+      }
+    }
+
+  
+ 

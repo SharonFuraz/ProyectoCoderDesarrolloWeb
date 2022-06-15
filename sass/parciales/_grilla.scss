@@ -1,0 +1,16 @@
+.grilla {
+    background-color: #c5e48c;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: min-content min-content;
+    grid-template-areas:
+      "cabaña foto";
+&__foto {
+    margin-top: 15rem;
+    width: 32rem;
+    grid-area: foto;
+    border: solid;
+    color: #578e3e;
+      }
+  }
+  

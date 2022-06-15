@@ -1,0 +1,39 @@
+.contacto {
+    background-color: #c5e48cd7;
+    &__itemFormulario {
+        margin: 0.4rem 2rem 0.4rem 2rem;
+        background-color: #94c080;
+        padding: 3px;
+        border-radius: 4px;
+      }
+    &__boton {
+        border: none;
+        width: 60%;
+        background-color: #578e3e;
+        padding: 10px;
+        margin-left: 3rem;
+      }
+    &__botonEnviar :hover {
+        transition: all 0.3s ease;
+        background: rgba(117, 166, 28, 1);
+        font-weight: bold;
+      }
+    &__formulario {
+        background-color: #94c080;
+        padding: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+      &__infoDeContacto {
+        margin-bottom: 4rem;
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  

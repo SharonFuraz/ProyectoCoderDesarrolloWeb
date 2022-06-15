@@ -1,0 +1,20 @@
+.direccion {
+    background: rgb(117, 166, 28);
+    background: radial-gradient(circle, rgba(117, 166, 28, 1) 0%, rgba(149, 190, 72, 1) 46%, rgba(143, 168, 93, 1) 100%);
+&__instagram {
+        width: 2.1rem;
+      }
+      
+&__facebook {
+        width: 1.7rem;
+        margin-right: 2rem;
+      }
+      
+&__texto {
+        text-decoration: solid;
+        color: black;
+        font-weight: bold;
+        padding: 1.5rem;
+      }
+  }
+  
