@@ -3,9 +3,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #c5e48c;
+    background-color: $greenbackround;
     font-size: medium;
-    color: black;
+    color: $color;
     font-weight: bold;
     padding-bottom: 10rem;
 &__mapaCabañas {
@@ -14,7 +14,7 @@
         border-radius: 1rem;
         position: relative;
         transition: .5s ease all;
-        top: 2rem;
+        top: 4rem;
       }
  &__mapa :hover {
         -webkit-transform: scale(1.3);

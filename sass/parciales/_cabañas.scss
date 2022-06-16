@@ -1,13 +1,13 @@
 .cabañas{
-    background-color: #c5e48c;
+    background-color: $greenbackround;
 &__nav {
         padding-top: 3rem;
       }
 &__link:hover {
-        color: #000000;
+        color: $color;
         font-weight: bolder;
       }
  &__link {
-        color: black;
+        color: $color;
       }
 }

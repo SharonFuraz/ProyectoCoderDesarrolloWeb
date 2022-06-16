@@ -3,11 +3,11 @@
         width: 10rem;
       }
 &__link {
-        color: black;
+        color: $color;
       }
       
 &__link:hover {
-        color: #000000;
+        color: $color;
         font-weight: bolder;
       }
 }

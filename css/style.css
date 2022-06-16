@@ -76,7 +76,7 @@ html {
     margin: 0 auto auto 0; }
 
 .grilla {
-  background-color: #c5e48c;
+  background-color: #c5e48cfe;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: min-content min-content;
@@ -92,7 +92,7 @@ html {
     padding-right: 1rem; }
 
 .contacto {
-  background-color: #c5e48cd7; }
+  background-color: #c5e48cfe; }
   .contacto__itemFormulario {
     margin: 0.4rem 2rem 0.4rem 2rem;
     background-color: #94c080;
@@ -121,7 +121,7 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #c5e48c;
+  background-color: #c5e48cfe;
   font-size: medium;
   color: black;
   font-weight: bold;
@@ -154,7 +154,7 @@ html {
     text-decoration: underline; }
 
 .cabañas {
-  background-color: #c5e48c; }
+  background-color: #c5e48cfe; }
   .cabañas__nav {
     padding-top: 3rem; }
   .cabañas__link:hover {
@@ -168,7 +168,7 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #c5e48c;
+  background-color: #c5e48cfe;
   font-size: medium;
   color: black;
   font-weight: bold;
@@ -199,7 +199,7 @@ html {
   color: #578e3e; }
 
 .servicios__container {
-  background-color: #c5e48c;
+  background-color: #c5e48cfe;
   padding-left: 2rem;
   padding-bottom: 4rem; }
 

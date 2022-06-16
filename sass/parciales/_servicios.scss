@@ -2,20 +2,18 @@
 &__fotoHamacas {
         position: relative;
         top: 2rem;
-        border: solid;
-        color: #578e3e;
+        color: $border;
       }
       
 &__fotoParrilla {
         position: relative;
         top: 3rem;
-        border: solid;
-        color: #578e3e;
+        color: $border;
       }
       
       
 &__container {
-        background-color: #c5e48c;
+        background-color: $greenbackround;
         padding-left: 2rem;
         padding-bottom: 4rem;
       }

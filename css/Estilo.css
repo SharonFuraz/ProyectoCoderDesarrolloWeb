@@ -183,7 +183,7 @@ html {
   border-radius: 1rem;
   position: relative;
   transition: .5s ease all;
-  top: 2rem;
+  top: 4rem;
 }
 
 .ubicacion__mapa :hover {
@@ -273,7 +273,7 @@ html {
   width: 80%;
   margin: 0rem auto auto 0rem;
   padding-left: 1rem;
-  font-size: larger;
+  font-size: small;
    }
 
 /*
