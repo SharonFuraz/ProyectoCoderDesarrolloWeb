@@ -7,7 +7,7 @@
   box-sizing: border-box
 }
 
-.logoElComienzo {
+.barra__logoElComienzo {
   width: 10rem;
 }
 
@@ -15,17 +15,24 @@ html {
   font-family: "Nunito", sans-serif;
 }
 
-.nav-link {
+.barra__link {
   color: black;
 }
 
-.nav-item :hover {
+.barra__link:hover {
   color: #000000;
   font-weight: bolder;
 }
 
-#cabañas__nav {
+.cabañas__nav {
   padding-top: 3rem;
+}
+.cabañas__link:hover {
+  color: #000000;
+  font-weight: bolder;
+}
+.cabañas__link {
+  color: black;
 }
 
 .index__foto {
@@ -119,6 +126,11 @@ html {
   color: #578e3e;
 }
 
+.grilla__carousel{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .contacto {
   background-color: #c5e48cd7;
 }
@@ -208,10 +220,6 @@ html {
   margin-bottom: 4rem;
 }
 
-.carousel-inner{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 .direccion {
   background: rgb(117, 166, 28);
   background: radial-gradient(circle, rgba(117, 166, 28, 1) 0%, rgba(149, 190, 72, 1) 46%, rgba(143, 168, 93, 1) 100%);

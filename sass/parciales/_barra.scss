@@ -1,0 +1,13 @@
+.barra{
+&__logoElComienzo {
+        width: 10rem;
+      }
+&__link {
+        color: black;
+      }
+      
+&__link:hover {
+        color: #000000;
+        font-weight: bolder;
+      }
+}
