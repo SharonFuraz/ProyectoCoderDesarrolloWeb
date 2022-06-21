@@ -3,11 +3,11 @@
         width: 10rem;
       }
 &__link {
-        color: $color;
+        color: map-get($colores,color);
       }
       
 &__link:hover {
-        color: $color;
+        color: map-get($colores,color);
         font-weight: bolder;
       }
 }

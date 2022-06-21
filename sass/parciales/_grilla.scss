@@ -1,5 +1,5 @@
 .grilla {
-    background-color: $greenbackround;
+    background-color: map-get($colores, greenbackground );
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: min-content min-content;
@@ -10,7 +10,7 @@
     width: 32rem;
     grid-area: foto;
     border: solid;
-    color: $border;
+    color: map-get($colores, border );
       }
 &__carousel{
         padding-left: 1rem;

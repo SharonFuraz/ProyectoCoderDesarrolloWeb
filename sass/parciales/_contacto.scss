@@ -9,17 +9,17 @@
     &__boton {
         border: none;
         width: 60%;
-        background-color: #578e3e;
+        background-color: map-get($colores,form);
         padding: 10px;
         margin-left: 3rem;
       }
     &__botonEnviar :hover {
         transition: all 0.3s ease;
-        background: rgba(117, 166, 28, 1);
+        background: map-get($colores,botonhover);
         font-weight: bold;
       }
     &__formulario {
-        background-color: #94c080;
+        background-color: map-get($colores,formulariobackground);
         padding: 1rem;
         margin-top: 2rem;
         margin-bottom: 2rem;

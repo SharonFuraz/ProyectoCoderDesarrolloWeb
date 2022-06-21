@@ -13,7 +13,7 @@
       
       
 &__container {
-        background-color: $greenbackround;
+        background-color: map-get($colores, greenbackground);
         padding-left: 2rem;
         padding-bottom: 4rem;
       }

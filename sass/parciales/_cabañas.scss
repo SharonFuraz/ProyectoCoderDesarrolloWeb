@@ -1,13 +1,13 @@
 .cabañas{
-    background-color: $greenbackround;
+    background-color: map-get($colores,greenbackground);
 &__nav {
         padding-top: 3rem;
       }
 &__link:hover {
-        color: $color;
+        color: map-get($colores,color);
         font-weight: bolder;
       }
  &__link {
-        color: $color;
+        color: map-get($colores,color);
       }
 }

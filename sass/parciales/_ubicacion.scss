@@ -3,9 +3,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: $greenbackround;
+    background-color: map-get($colores, greenbackground);
     font-size: medium;
-    color: $color;
+    color: map-get($colores, color);
     font-weight: bold;
     padding-bottom: 10rem;
 &__mapaCabañas {

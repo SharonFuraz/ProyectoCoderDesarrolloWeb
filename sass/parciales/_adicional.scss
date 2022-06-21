@@ -1,8 +1,8 @@
 .adicional{
     padding: 6rem 0;
-    background-color: $whitebackground;
+    background-color: map-get($colores,whitebackground);
     &__foto{
-        border:$border;
+        border:map-get($colores,border)
     }
     &__titulo {
     margin: auto auto 2rem 0; 
