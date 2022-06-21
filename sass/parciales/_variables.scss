@@ -1,17 +1,29 @@
 $colores:(
- greenbackground:#c5e48cfe,
- whitebackground: white ,
- color:black,
- border: solid #578e3e,
- form:#578e3e,
- botonhover:rgba(117, 166, 28, 1),
- formulariobackground:#94c080,
- sustituto: rgb(117, 166, 28),
- direcciongradiente: radial-gradient(circle, rgba(117, 166, 28, 1) 0%, rgba(149, 190, 72, 1) 46%, rgba(143, 168, 93, 1) 100%),
+ "greenbackground":#c5e48cfe,
+ "whitebackground": white ,
+ "color":black,
+ "border": solid #578e3e,
+ "form":#578e3e,
+ "botonhover":rgba(117, 166, 28, 1),
+ "formulariobackground":#94c080,
+ "sustituto": rgb(117, 166, 28),
+ "direcciongradiente": radial-gradient(circle, rgba(117, 166, 28, 1) 0%, rgba(149, 190, 72, 1) 46%, rgba(143, 168, 93, 1) 100%),
 );
 @each $color,$value in $colores {
     .#{$color} {
         color:#{$value};
     } 
-} ; 
+};
+$fuente:(
+    "tipografia": bolder,
+    "mediano":medium,
+    "pequeño":small,
+    "grande":large
+);
+@each $color, $value in $fuente {
+    .#{$color}{
+        tipografia: #{$value}
+    }
+}
+
  
