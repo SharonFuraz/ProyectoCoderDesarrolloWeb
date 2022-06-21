@@ -22,8 +22,9 @@ $fuente:(
 );
 @each $color, $value in $fuente {
     .#{$color}{
-        tipografia: #{$value}
+        font: #{$value}
     }
 }
+
 
  
