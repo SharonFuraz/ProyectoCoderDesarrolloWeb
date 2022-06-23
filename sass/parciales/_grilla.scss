@@ -15,5 +15,32 @@
         padding-left: 1rem;
         padding-right: 1rem;
       }
+@include movil {
+  & {
+    display: flex;
+    flex-direction: column;
+  }
+  &__foto {
+    display: 10rem;
+  } 
+}
+@include tabletmax {
+  &{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+  }
+
+  &__foto {
+    margin-top: 3rem;
+    width: 20rem;
+  }
+}
+@include tabletmin {
+  &__foto {
+    width: 25rem;
+    margin-right: 2rem;
+  }
+}
   }
   

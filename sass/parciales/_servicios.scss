@@ -26,4 +26,16 @@
         padding-left: 1rem;
         font-size: map-get($fuente, grande);
          }
+@include movil {
+  &__container {
+    display: flex;
+    flex-direction:column;
+  }
+}
+@include tabletmax{
+  &__container {
+    display: flex;
+    flex-direction:column;
+  }
+}
 }

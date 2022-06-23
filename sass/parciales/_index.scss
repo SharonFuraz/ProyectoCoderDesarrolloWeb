@@ -25,7 +25,8 @@
         background-attachment: fixed;
         background-size: cover;
         font-size: map-get($fuente , medium );
-        @include link (bolder,map-get($colores,color))
+        @include link (bolder,map-get($colores,color));
+        
       }
       &__cabañas {
         list-style: none;
@@ -43,4 +44,39 @@
         transition: 2s transform;
         display: block;
       }
-  }
+      @include movil {
+        &__playa {
+          height: 50rem;
+        }
+      
+        &__foto {
+          width: 100%;
+        }
+      
+        &__cabañas {
+          margin-top: 1rem;
+          display: flex;
+          justify-content: center;
+        }
+      }
+      @include tabletmax{
+        &__playa {
+          height: 45rem;
+        }
+      
+        &_foto {
+          width: 12.12rem;
+          margin: 1rem;
+        }
+      }
+      @include tabletmin{
+        &__playa {
+          height: 45rem;
+        }
+      
+        &_foto {
+          width: 15rem;
+          margin: 2rem;
+        }
+      }
+    }
