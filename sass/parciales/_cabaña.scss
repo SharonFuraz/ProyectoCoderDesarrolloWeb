@@ -1,5 +1,5 @@
 .cabaña {
-    font-size: small;
+    font-size: map-get($fuente, pequeño );
     margin-left: 3rem;
     margin-top: 4rem;
     grid-area: cabaña;
@@ -10,7 +10,7 @@
  &__planta {
         margin-top: 1rem;
         margin-bottom: 1rem;
-        font-size: medium;
+        font-size: map-get($fuente, mediano);
         text-decoration: underline;
       }
     }

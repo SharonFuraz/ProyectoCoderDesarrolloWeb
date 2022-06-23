@@ -9,8 +9,7 @@
     margin-top: 15rem;
     width: 32rem;
     grid-area: foto;
-    border: solid;
-    color: map-get($colores, border );
+    @extend .servicios__fotoHamacas;
       }
 &__carousel{
         padding-left: 1rem;

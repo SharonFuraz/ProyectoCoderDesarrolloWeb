@@ -1,6 +1,7 @@
 $colores:(
  "greenbackground":#c5e48cfe,
  "whitebackground": white ,
+ "indexbackground":#c5e48c4c,
  "color":black,
  "border": solid #578e3e,
  "form":#578e3e,
@@ -18,12 +19,17 @@ $fuente:(
     "tipografia": bolder,
     "mediano":medium,
     "pequeño":small,
-    "grande":large
+    "grande":larger
 );
 @each $color, $value in $fuente {
     .#{$color}{
         font: #{$value}
     }
+}
+@mixin link( $color, $font-weight){
+    color:map-get($colores,color);
+    font-weight: bolder;
+    font-weight: bold;
 }
 
 

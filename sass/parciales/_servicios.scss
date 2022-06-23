@@ -2,16 +2,13 @@
 &__fotoHamacas {
         position: relative;
         top: 2rem;
-        color: $border;
+        color: map-get($colores, border);
       }
       
 &__fotoParrilla {
-        position: relative;
+       @extend .servicios__fotoHamacas;
         top: 3rem;
-        color: $border;
-      }
-      
-      
+      } 
 &__container {
         background-color: map-get($colores, greenbackground);
         padding-left: 2rem;
@@ -27,6 +24,6 @@
         width: 80%;
         margin: 0rem auto auto 0rem;
         padding-left: 1rem;
-        font-size: larger;
+        font-size: map-get($fuente, grande);
          }
 }

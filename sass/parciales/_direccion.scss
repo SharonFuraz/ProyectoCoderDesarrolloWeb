@@ -12,8 +12,7 @@
       
 &__texto {
         text-decoration: solid;
-        color: map-get($colores,color);
-        font-weight: bold;
+        @include link (bold,map-get($colores,color));
         padding: 1.5rem;
       }
   }
