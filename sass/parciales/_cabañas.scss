@@ -4,7 +4,7 @@
         padding-top: 3rem;
       }
 &__link:hover {
-  @include link;
+  @include link (map-get($colores,color),bolder)
       }
  &__link {
   color: map-get($colores,color);
