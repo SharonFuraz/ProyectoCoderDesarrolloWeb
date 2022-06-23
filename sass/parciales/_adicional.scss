@@ -6,31 +6,23 @@
     }
     &__titulo {
     margin: auto auto 2rem 0; 
+    @include movil {
+      margin: 1rem auto 1rem auto;
+    }
+    @include tabletmax {
+      margin: 1rem auto 1rem auto;
+    }
     }
     &__parrafo {
     width: 80%;
     margin: 0 auto auto 0;
+    @include movil{
+      width: 80%;
+      margin: 1rem auto 1rem auto;
     }
-@include movil {
-    &__titulo{
-        margin: 1rem auto 1rem auto;
-        
-      }
-      &__parrafo {
-        width: 80%;
-        margin: 1rem auto 1rem auto;
-      }
+    @include tabletmax{
+      width: 80%;
+      margin: 1rem auto 1rem auto;
+    }
 }
-@include tabletmax {
-    &__titulo {
-        margin: 1rem auto 1rem auto;
-        
-      }
-      
-      &__parrafo{
-        width: 80%;
-        margin: 1rem auto 1rem auto;
-      }
 }
-  }
-  

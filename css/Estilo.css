@@ -298,27 +298,23 @@ html {
     display: flex;
     justify-content: center;
   }
-
-  .grilla__foto {
-    display: 10rem;
-  }
-
-  .ubicacion__mapa:hover {
-    display: none;
-  }
-  .adicional__titulo{
-    margin: 1rem auto 1rem auto;
-    
-  }
-  
-  .adicional__parrafo {
-    width: 80%;
-    margin: 1rem auto 1rem auto;
-  }
   .grilla {
     display: flex;
     flex-direction: column;
   }
+  .grilla__foto {
+    display: 10rem;
+  }
+
+  .adicional__titulo{
+    margin: 1rem auto 1rem auto;
+    
+  }
+  .adicional__parrafo {
+    width: 80%;
+    margin: 1rem auto 1rem auto;
+  }
+  
   .servicios__container {
     display: flex;
     flex-direction:column;
@@ -326,6 +322,10 @@ html {
   .ubicacion__mapaCabañas{
   width: 18rem;
   height:14rem; }
+  
+  .ubicacion__mapa:hover {
+    display: none;
+  }
 }
 
 /* Medium*/
@@ -350,15 +350,10 @@ html {
     width: 12.12rem;
     margin: 1rem;
   }
-
-  .ubicacion_mapa:hover {
-    display: none;
-  }
   .adicional__titulo {
     margin: 1rem auto 1rem auto;
     
   }
-  
   .adicional__parrafo{
     width: 80%;
     margin: 1rem auto 1rem auto;
@@ -370,6 +365,10 @@ html {
   .ubicacion__mapaCabañas{
     width: 20rem;
     height:15rem; }
+  
+    .ubicacion_mapa:hover {
+      display: none;
+    }
 }
 
 /* Medium*/

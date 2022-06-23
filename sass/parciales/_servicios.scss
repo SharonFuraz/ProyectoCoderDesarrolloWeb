@@ -13,6 +13,14 @@
         background-color: map-get($colores, greenbackground);
         padding-left: 2rem;
         padding-bottom: 4rem;
+        @include movil {
+          display: flex;
+    flex-direction:column;
+        }
+        @include tabletmax{
+          display: flex;
+         flex-direction:column;
+        }
       }
       
 &__titulo {
@@ -26,16 +34,4 @@
         padding-left: 1rem;
         font-size: map-get($fuente, grande);
          }
-@include movil {
-  &__container {
-    display: flex;
-    flex-direction:column;
-  }
-}
-@include tabletmax{
-  &__container {
-    display: flex;
-    flex-direction:column;
-  }
-}
-}
+        }
