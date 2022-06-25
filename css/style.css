@@ -13,7 +13,7 @@
   color: black; }
 
 .border {
-  color: solid #578e3e; }
+  color: #578e3e; }
 
 .form {
   color: #578e3e; }
@@ -134,7 +134,7 @@ html {
   padding: 6rem 0;
   background-color: white; }
   .adicional__foto {
-    border: solid #578e3e; }
+    border: #578e3e; }
   .adicional__titulo {
     margin: auto auto 2rem 0; }
     @media screen and (max-width: 576px) {
@@ -315,10 +315,10 @@ html {
       .ubicacion__mapa :hover {
         display: none; } }
 
-.servicios__fotoHamacas, .index__cabañas__foto, .grilla__foto, .servicios__fotoParrilla {
+.servicios__fotoHamacas, .index__cabañas__foto, .grilla__item, .servicios__fotoParrilla {
   position: relative;
   top: 2rem;
-  color: solid #578e3e; }
+  border: #578e3e; }
 
 .servicios__fotoParrilla {
   top: 3rem; }
