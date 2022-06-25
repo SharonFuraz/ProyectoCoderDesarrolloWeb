@@ -1,6 +1,11 @@
 .direccion {
     background: map-get($colores,sustituto ) ;
     background:map-get($colores,direcciongradiente ) ;
+&__socialMedia{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+}
 &__instagram {
         width: 2.1rem;
       }

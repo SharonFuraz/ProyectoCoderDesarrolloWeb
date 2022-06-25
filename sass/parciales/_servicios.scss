@@ -2,7 +2,7 @@
 &__fotoHamacas {
         position: relative;
         top: 2rem;
-        color: map-get($colores, border);
+        border: map-get($colores, border);
       }
       
 &__fotoParrilla {
