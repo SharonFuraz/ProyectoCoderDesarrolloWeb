@@ -105,6 +105,7 @@ html {
         justify-content: center; } }
   .index__foto {
     width: 20rem;
+    border: #578e3e solid 0.5rem;
     transition: 2s transform;
     display: block; }
     @media screen and (max-width: 576px) {
@@ -173,6 +174,7 @@ html {
   .grilla__foto {
     margin-top: 15rem;
     width: 32rem;
+    border: #578e3e solid 0.5rem;
     grid-area: foto; }
     @media screen and (max-width: 576px) {
       .grilla__foto {
@@ -277,8 +279,9 @@ html {
       .ubicacion__mapa :hover {
         display: none; } }
 
-.servicios__fotoHamacas, .index__foto, .grilla__foto, .servicios__fotoParrilla {
+.servicios__fotoHamacas, .servicios__fotoParrilla {
   position: relative;
+  top: 2rem;
   border: #578e3e solid 0.5rem; }
 
 .servicios__fotoParrilla {

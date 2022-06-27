@@ -53,7 +53,7 @@
       }
       &__foto {
         width: 20rem;
-        @extend .servicios__fotoHamacas;
+       border:map-get($colores,border);
         transition: 2s transform;
         display: block;
         @include movil {
