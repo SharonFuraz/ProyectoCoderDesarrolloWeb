@@ -50,6 +50,7 @@
           display: flex;
           justify-content: center;
         }
+      }
       &__foto {
         width: 20rem;
         @extend .servicios__fotoHamacas;
@@ -67,5 +68,4 @@
           margin: 2rem;
         }
       }
-    }
   }
