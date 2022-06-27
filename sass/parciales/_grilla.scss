@@ -17,6 +17,7 @@
 &__foto {
     margin-top: 15rem;
     width: 32rem;
+    @extend .servicios__fotoHamacas;
     grid-area: foto;
     @include movil {
         display: 10rem;
@@ -30,9 +31,6 @@
     margin-right: 2rem;
     }
     }
-&__item{
-  @extend .servicios__fotoHamacas;
-}
 &__carousel{
         padding-left: 1rem;
         padding-right: 1rem;

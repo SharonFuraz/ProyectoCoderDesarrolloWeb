@@ -277,9 +277,8 @@ html {
       .ubicacion__mapa :hover {
         display: none; } }
 
-.servicios__fotoHamacas, .index__cabañas__foto, .grilla__item, .servicios__fotoParrilla {
+.servicios__fotoHamacas, .index__cabañas__foto, .grilla__foto, .servicios__fotoParrilla {
   position: relative;
-  top: 2rem;
   border: #578e3e solid 0.5rem; }
 
 .servicios__fotoParrilla {
