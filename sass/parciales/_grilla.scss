@@ -7,7 +7,7 @@
       "cabaña foto";
       @include movil {
         display: flex;
-    flex-direction: column;
+        flex-direction: column;
       }
       @include tabletmax{
         display: flex;
@@ -21,10 +21,12 @@
     grid-area: foto;
     @include movil {
         display: 10rem;
+        position: relative
       } 
     @include tabletmax {
       margin-top: 3rem;
       width: 20rem;
+      position: relative
     }
     @include tabletmin{
       width: 25rem;
