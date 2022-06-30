@@ -264,7 +264,8 @@ html {
   .index__cabañas {
     margin-top: 1rem;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    flex-direction: column; }
   .grilla {
     display: flex;
     flex-direction: column; }
