@@ -1,16 +1,125 @@
-@mixin tabletmax {
-    @media screen and (max-width: 768px){
-        @content;
+/*
+320px-480px: Mobile devices
+481px-768px: Ipods,Tablets
+769px-1024px: Small screens, Laptops
+1025px-1200px: Desktops, Large screens
+1201px and  more- extra Large screens, TV
+*/
+/* Small*/
+@media screen and (max-width: 576px) {
+    .index{
+        &__playa {
+            height: 50rem;
+          }
+        &__foto {
+            width: 100%;
+          }
+         &__cabañas {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+         }
     }
-}
-@mixin tabletmin {
-    @media screen and (min-width: 768px) {
-        @content;
+    .grilla {
+      display: flex;
+      flex-direction: column;
+      &__foto {
+        display: 10rem;
+      }
+    }
+    .adicional{
+        &__titulo{
+            margin: 1rem auto 1rem auto;
+            
+          }
+        &__parrafo {
+            width: 80%;
+            margin: 1rem auto 1rem auto;
+          }
+    }
+    .servicios{
+        &__container {
+            display: flex;
+            flex-direction:column;
+          }
+    }
+    .ubicacion{
+        &__mapaCabañas{
+            width: 18rem;
+            height:14rem; }
+            
+        &__mapa:hover {
+              display: none;
+            }
+        }
+     }
+  
+  /* Medium*/
+  @media screen and (max-width: 768px) {
+    .index{
+        &__playa {
+            height: 45rem;
+          }
+        
+        &__foto {
+            width: 12.12rem;
+            margin: 1rem;
+          }
+    }
+    .grilla{
+            display: flex;
+            flex-direction:column;
+            flex-wrap: wrap;
+        
+        &__foto {
+            margin-top: 3rem;
+            width: 20rem;
+          }
+    }
+    .adicional{
+        &__titulo {
+            margin: 1rem auto 1rem auto;
+            
+          }
+        &__parrafo{
+            width: 80%;
+            margin: 1rem auto 1rem auto;
+          }
 
     }
-}
-@mixin movil {
-    @media screen and (max-width: 576px){
-        @content
+    .servicios{
+        &__container {
+            display: flex;
+            flex-direction:column;
+          }
+     }
+    .ubicacion{
+        &__mapaCabañas{
+            width: 20rem;
+            height:15rem; }
+          
+        &_mapa:hover {
+              display: none;
+            }
+        }
     }
-}
+  
+  /* Medium*/
+  @media screen and (min-width: 768px) {
+    .index{
+        &__playa {
+            height: 45rem;
+          }
+        
+        &__foto {
+            width: 15rem;
+            margin: 2rem;
+          }
+    }
+    .grilla{
+        &__foto {
+            width: 25rem;
+            margin-right: 2rem;
+          }
+        }
+    }

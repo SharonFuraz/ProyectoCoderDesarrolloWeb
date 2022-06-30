@@ -26,15 +26,6 @@
         background-size: cover;
         font-size: map-get($fuente , medium );
         @include link (bolder,map-get($colores,color));
-        @include movil {
-          height: 50rem;
-        }
-        @include tabletmax{
-          height: 45rem;
-        }
-        @include tabletmin {
-          height: 45rem;
-        }
         }
       &__cabañas {
         list-style: none;
@@ -45,27 +36,11 @@
         overflow: hidden;
         position: relative;
         margin: 1px 0;
-        @include movil {
-          margin-top: 1rem;
-          display: flex;
-          justify-content: center;
-        }
       }
       &__foto {
         width: 20rem;
        border:map-get($colores,border);
         transition: 2s transform;
         display: block;
-        @include movil {
-          width: 100%;
-        }
-        @include tabletmax {
-          width: 12.12rem;
-          margin: 1rem;
-        }
-        @include tabletmin{
-          width: 15rem;
-          margin: 2rem;
-        }
       }
   }

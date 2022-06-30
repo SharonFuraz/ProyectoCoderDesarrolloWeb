@@ -80,15 +80,6 @@ html {
     color: black;
     font-weight: bolder;
     font-weight: bold; }
-    @media screen and (max-width: 576px) {
-      .index__playa {
-        height: 50rem; } }
-    @media screen and (max-width: 768px) {
-      .index__playa {
-        height: 45rem; } }
-    @media screen and (min-width: 768px) {
-      .index__playa {
-        height: 45rem; } }
   .index__cabañas {
     list-style: none;
     padding-top: 1rem;
@@ -98,27 +89,11 @@ html {
     overflow: hidden;
     position: relative;
     margin: 1px 0; }
-    @media screen and (max-width: 576px) {
-      .index__cabañas {
-        margin-top: 1rem;
-        display: flex;
-        justify-content: center; } }
   .index__foto {
     width: 20rem;
     border: #578e3e solid 0.5rem;
     transition: 2s transform;
     display: block; }
-    @media screen and (max-width: 576px) {
-      .index__foto {
-        width: 100%; } }
-    @media screen and (max-width: 768px) {
-      .index__foto {
-        width: 12.12rem;
-        margin: 1rem; } }
-    @media screen and (min-width: 768px) {
-      .index__foto {
-        width: 15rem;
-        margin: 2rem; } }
 
 .barra__logoElComienzo {
   width: 10rem; }
@@ -138,23 +113,9 @@ html {
     border: #578e3e solid 0.5rem; }
   .adicional__titulo {
     margin: auto auto 2rem 0; }
-    @media screen and (max-width: 576px) {
-      .adicional__titulo {
-        margin: 1rem auto 1rem auto; } }
-    @media screen and (max-width: 768px) {
-      .adicional__titulo {
-        margin: 1rem auto 1rem auto; } }
   .adicional__parrafo {
     width: 80%;
     margin: 0 auto auto 0; }
-    @media screen and (max-width: 576px) {
-      .adicional__parrafo {
-        width: 80%;
-        margin: 1rem auto 1rem auto; } }
-    @media screen and (max-width: 768px) {
-      .adicional__parrafo {
-        width: 80%;
-        margin: 1rem auto 1rem auto; } }
 
 .grilla {
   background-color: #c5e48cfe;
@@ -162,31 +123,11 @@ html {
   grid-template-columns: 50% 50%;
   grid-template-rows: min-content min-content;
   grid-template-areas: "cabaña foto"; }
-  @media screen and (max-width: 576px) {
-    .grilla {
-      display: flex;
-      flex-direction: column; } }
-  @media screen and (max-width: 768px) {
-    .grilla {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap; } }
   .grilla__foto {
     margin-top: 15rem;
     width: 32rem;
     border: #578e3e solid 0.5rem;
     grid-area: foto; }
-    @media screen and (max-width: 576px) {
-      .grilla__foto {
-        display: 10rem; } }
-    @media screen and (max-width: 768px) {
-      .grilla__foto {
-        margin-top: 3rem;
-        width: 20rem; } }
-    @media screen and (min-width: 768px) {
-      .grilla__foto {
-        width: 25rem;
-        margin-right: 2rem; } }
   .grilla__carousel {
     padding-left: 1rem;
     padding-right: 1rem; }
@@ -259,25 +200,11 @@ html {
     position: relative;
     transition: .5s ease all;
     top: 4rem; }
-    @media screen and (max-width: 576px) {
-      .ubicacion__mapaCabañas {
-        width: 18rem;
-        height: 14rem; } }
-    @media screen and (max-width: 768px) {
-      .ubicacion__mapaCabañas {
-        width: 20rem;
-        height: 15rem; } }
   .ubicacion__mapa :hover {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
     border-radius: 1rem; }
-    @media screen and (max-width: 576px) {
-      .ubicacion__mapa :hover {
-        display: none; } }
-    @media screen and (max-width: 768px) {
-      .ubicacion__mapa :hover {
-        display: none; } }
 
 .servicios__fotoHamacas, .servicios__fotoParrilla {
   position: relative;
@@ -291,14 +218,6 @@ html {
   background-color: #c5e48cfe;
   padding-left: 2rem;
   padding-bottom: 4rem; }
-  @media screen and (max-width: 576px) {
-    .servicios__container {
-      display: flex;
-      flex-direction: column; } }
-  @media screen and (max-width: 768px) {
-    .servicios__container {
-      display: flex;
-      flex-direction: column; } }
 
 .servicios__titulo {
   margin: 1rem auto 2rem 0;
@@ -328,3 +247,78 @@ html {
     font-weight: bolder;
     font-weight: bold;
     padding: 1.5rem; }
+
+/*
+320px-480px: Mobile devices
+481px-768px: Ipods,Tablets
+769px-1024px: Small screens, Laptops
+1025px-1200px: Desktops, Large screens
+1201px and  more- extra Large screens, TV
+*/
+/* Small*/
+@media screen and (max-width: 576px) {
+  .index__playa {
+    height: 50rem; }
+  .index__foto {
+    width: 100%; }
+  .index__cabañas {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center; }
+  .grilla {
+    display: flex;
+    flex-direction: column; }
+    .grilla__foto {
+      display: 10rem; }
+  .adicional__titulo {
+    margin: 1rem auto 1rem auto; }
+  .adicional__parrafo {
+    width: 80%;
+    margin: 1rem auto 1rem auto; }
+  .servicios__container {
+    display: flex;
+    flex-direction: column; }
+  .ubicacion__mapaCabañas {
+    width: 18rem;
+    height: 14rem; }
+  .ubicacion__mapa:hover {
+    display: none; } }
+
+/* Medium*/
+@media screen and (max-width: 768px) {
+  .index__playa {
+    height: 45rem; }
+  .index__foto {
+    width: 12.12rem;
+    margin: 1rem; }
+  .grilla {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    .grilla__foto {
+      margin-top: 3rem;
+      width: 20rem; }
+  .adicional__titulo {
+    margin: 1rem auto 1rem auto; }
+  .adicional__parrafo {
+    width: 80%;
+    margin: 1rem auto 1rem auto; }
+  .servicios__container {
+    display: flex;
+    flex-direction: column; }
+  .ubicacion__mapaCabañas {
+    width: 20rem;
+    height: 15rem; }
+  .ubicacion_mapa:hover {
+    display: none; } }
+
+/* Medium*/
+@media screen and (min-width: 768px) {
+  .index__playa {
+    height: 45rem; }
+  .index__foto {
+    width: 15rem;
+    margin: 2rem; }
+  .grilla__foto {
+    width: 25rem;
+    margin-right: 2rem; } }

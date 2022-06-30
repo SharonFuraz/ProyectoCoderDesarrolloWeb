@@ -13,14 +13,6 @@
         background-color: map-get($colores, greenbackground);
         padding-left: 2rem;
         padding-bottom: 4rem;
-        @include movil {
-          display: flex;
-    flex-direction:column;
-        }
-        @include tabletmax{
-          display: flex;
-         flex-direction:column;
-        }
       }
       
 &__titulo {

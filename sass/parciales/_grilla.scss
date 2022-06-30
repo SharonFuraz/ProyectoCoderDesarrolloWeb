@@ -5,33 +5,11 @@
     grid-template-rows: min-content min-content;
     grid-template-areas:
       "cabaña foto";
-      @include movil {
-        display: flex;
-        flex-direction: column;
-      }
-      @include tabletmax{
-        display: flex;
-        flex-direction:column;
-        flex-wrap: wrap;
-      }
 &__foto {
     margin-top: 15rem;
     width: 32rem;
    border: map-get($colores,border);
     grid-area: foto;
-    @include movil {
-        display: 10rem;
-        position: relative
-      } 
-    @include tabletmax {
-      margin-top: 3rem;
-      width: 20rem;
-      position: relative
-    }
-    @include tabletmin{
-      width: 25rem;
-    margin-right: 2rem;
-    }
     }
 &__carousel{
         padding-left: 1rem;

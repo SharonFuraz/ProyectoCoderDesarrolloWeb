@@ -1,7 +1,6 @@
 @import "./parciales/reset";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Nunito:ital,wght@0,200;0,300;0,400;1,300;1,400&family=Raleway:ital,wght@0,200;1,100&family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
 @import "./parciales/variables";
-@import "./parciales/responsive";
 @import "./parciales/html";
 @import "./parciales/index";
 @import "./parciales/barra";
@@ -12,4 +11,5 @@
 @import "./parciales/cabañas" ;
 @import "./parciales/ubicacion" ;
 @import "./parciales/servicios";
-@import "./parciales/direccion"
+@import "./parciales/direccion";
+@import "./parciales/responsive";
