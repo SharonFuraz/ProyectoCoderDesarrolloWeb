@@ -95,16 +95,33 @@ html {
     transition: 2s transform;
     display: block; }
 
-.barra__logoElComienzo {
-  width: 10rem; }
-
-.barra__link {
-  color: black; }
-
-.barra__link:hover {
-  color: black;
-  font-weight: bolder;
-  font-weight: bold; }
+.barra {
+  /* Escondo el menú para que no esté activo siempre */
+  /* Al hacer hover en el activador > modifico el submenú */ }
+  .barra__logoElComienzo {
+    width: 10rem; }
+  .barra__link {
+    color: black; }
+  .barra__link:hover {
+    color: black;
+    font-weight: bolder;
+    font-weight: bold; }
+  .barra__lista {
+    display: none; }
+  .barra__submenu:hover > .barra__lista {
+    display: block;
+    position: absolute;
+    list-style-type: none;
+    background-color: #95be48;
+    padding: 1rem; }
+  .barra__lista a {
+    color: black;
+    text-decoration: none; }
+  .barra__lista a:hover {
+    color: black;
+    font-weight: bolder;
+    font-weight: bold;
+    text-decoration: none; }
 
 .adicional {
   padding: 6rem 0;
@@ -256,7 +273,7 @@ html {
 1201px and  more- extra Large screens, TV
 */
 /* Small*/
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 480px) {
   .index__playa {
     height: 50rem; }
   .index__foto {
@@ -283,7 +300,9 @@ html {
     width: 18rem;
     height: 14rem; }
   .ubicacion__mapa:hover {
-    display: none; } }
+    display: none; }
+  .cabaña {
+    margin-left: 1rem; } }
 
 /* Medium*/
 @media screen and (max-width: 768px) {

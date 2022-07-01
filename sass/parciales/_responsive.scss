@@ -6,7 +6,7 @@
 1201px and  more- extra Large screens, TV
 */
 /* Small*/
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 480px) {
     .index{
         &__playa {
             height: 50rem;
@@ -53,6 +53,9 @@
               display: none;
             }
         }
+    .cabaña{
+      margin-left: 1rem;
+    }
      }
   
   /* Medium*/
