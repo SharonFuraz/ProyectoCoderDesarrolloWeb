@@ -7,7 +7,7 @@
       }
       
 &__link:hover {
-       @include link (map-get($colores,color),bolder)
+       color: map-get($colores,hover)
       }
 /* Escondo el menú para que no esté activo siempre */
 &__lista{
@@ -18,15 +18,18 @@
       display: block;
       position: absolute;
       list-style-type: none;
-      background-color: #95be48;
+      background-color: map-get($colores,greenbackground);
+      border:solid;color:map-get($colores, hover);
       padding: 1rem;
     }
 &__lista a{
-     color: black;
+      color: black;
+      padding: 10px 12px;
       text-decoration: none;
+      display: block;
     }
 &__lista a:hover{
-      @include link (map-get ($colores,color),tipografia);
+     color: map-get($colores,hovernav);
       text-decoration: none;
     }
 }
