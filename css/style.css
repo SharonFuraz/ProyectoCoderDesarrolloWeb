@@ -109,6 +109,11 @@
   .barra__link:hover {
     border-bottom: #6b6a6a solid 2px;
     color: #4c4b4b; }
+  .barra__boton {
+    border: solid #4b4b4c;
+    margin-right: 1rem; }
+  .barra__botonIcono {
+    color: solid #4b4b4c; }
 
 .adicional {
   padding: 6rem 0;
