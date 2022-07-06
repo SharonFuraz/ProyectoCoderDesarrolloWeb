@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*reseteo de css*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Nunito:ital,wght@0,200;0,300;0,400;1,300;1,400&family=Raleway:ital,wght@0,200;1,100&family=Roboto:ital,wght@0,400;0,700;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@400;500&family=Montserrat:wght@100;200&family=Nunito:ital,wght@0,200;0,300;0,400;1,300;1,400&family=Raleway:ital,wght@0,200;1,100&family=Roboto:wght@400;700&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -54,11 +54,9 @@
 .grande {
   font: larger; }
 
-html {
-  font-family: "Nunito", sans-serif; }
-
 .index {
-  background: #c5e48cfe; }
+  background: #c5e48cfe;
+  font-family: 'Nunito', sans-serif; }
   .index__descripcion {
     position: absolute;
     left: 0;
@@ -102,36 +100,19 @@ html {
     display: block; }
 
 .barra {
-  /* Escondo el menú para que no esté activo siempre */
-  /* Al hacer hover en el activador > modifico el submenú */ }
+  font-family: 'Nunito', sans-serif; }
   .barra__logoElComienzo {
     width: 10rem; }
   .barra__link {
     color: black; }
   .barra__link:hover {
-    color: #6b6a6a; }
-  .barra__lista {
-    display: none; }
-  .barra__submenu:hover > .barra__lista {
-    display: block;
-    position: absolute;
-    list-style-type: none;
-    background-color: #c5e48cfe;
-    border: solid;
-    color: #6b6a6a;
-    padding: 1rem; }
-  .barra__lista a {
-    color: black;
-    padding: 10px 12px;
-    text-decoration: none;
-    display: block; }
-  .barra__lista a:hover {
-    color: #4c4b4b;
-    text-decoration: none; }
+    border-bottom: #6b6a6a solid 2px;
+    color: #4c4b4b; }
 
 .adicional {
   padding: 6rem 0;
-  background-color: white; }
+  background-color: white;
+  font-family: 'Nunito', sans-serif; }
   .adicional__foto {
     border: #578e3e solid 0.5rem; }
   .adicional__titulo {
@@ -142,6 +123,7 @@ html {
 
 .grilla {
   background-color: #c5e48cfe;
+  font-family: 'Nunito', sans-serif;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: min-content min-content;
@@ -156,7 +138,8 @@ html {
     padding-right: 1rem; }
 
 .contacto {
-  background-color: #c5e48cfe; }
+  background-color: #c5e48cfe;
+  font-family: 'Nunito', sans-serif; }
   .contacto__itemFormulario {
     margin: 0.4rem 2rem 0.4rem 2rem;
     background-color: #94c080;
@@ -181,12 +164,13 @@ html {
     margin-bottom: 4rem; }
 
 .cabaña {
-  font-size: small;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  color: black;
   margin-left: 3rem;
   margin-top: 4rem;
   grid-area: cabaña; }
   .cabaña__titulo {
-    margin: 1rem;
     text-decoration: underline; }
   .cabaña__planta {
     margin-top: 1rem;
@@ -195,13 +179,22 @@ html {
     text-decoration: underline; }
 
 .cabañas {
-  background-color: #c5e48cfe; }
-  .cabañas__nav {
-    padding-top: 3rem; }
-  .cabañas__link:hover {
+  background-color: #c5e48cfe;
+  font-family: 'Nunito', sans-serif; }
+  .cabañas__titulo {
     color: black;
     font-weight: bolder;
-    font-weight: bold; }
+    font-weight: bold;
+    padding-left: 38rem;
+    padding-top: 2rem;
+    text-decoration: underline; }
+  .cabañas__nav {
+    padding-top: 1rem; }
+  .cabañas__item {
+    font-size: medium; }
+  .cabañas__link:hover {
+    border-bottom: #6b6a6a solid 2px;
+    color: #4c4b4b; }
   .cabañas__link {
     color: black; }
 
@@ -229,32 +222,31 @@ html {
     transform: scale(1.3);
     border-radius: 1rem; }
 
-.servicios__fotoHamacas, .servicios__fotoParrilla {
-  position: relative;
-  top: 2rem;
-  border: #578e3e solid 0.5rem; }
-
-.servicios__fotoParrilla {
-  top: 3rem; }
-
-.servicios__container {
-  background-color: #c5e48cfe;
-  padding-left: 2rem;
-  padding-bottom: 4rem; }
-
-.servicios__titulo {
-  margin: 1rem auto 2rem 0;
-  text-decoration: underline; }
-
-.servicios__item {
-  width: 80%;
-  margin: 0rem auto auto 0rem;
-  padding-left: 1rem;
-  font-size: medium; }
+.servicios {
+  font-family: 'Nunito', sans-serif; }
+  .servicios__fotoHamacas, .servicios__fotoParrilla {
+    position: relative;
+    top: 2rem;
+    border: #578e3e solid 0.5rem; }
+  .servicios__fotoParrilla {
+    top: 3rem; }
+  .servicios__container {
+    background-color: #c5e48cfe;
+    padding-left: 2rem;
+    padding-bottom: 4rem; }
+  .servicios__titulo {
+    margin: 1rem auto 2rem 0;
+    text-decoration: underline; }
+  .servicios__item {
+    width: 80%;
+    margin: 0rem auto auto 0rem;
+    padding-left: 1rem;
+    font-size: medium; }
 
 .direccion {
   background: #75a61c;
-  background: radial-gradient(circle, #75a61c 0%, #95be48 46%, #8fa85d 100%); }
+  background: radial-gradient(circle, #75a61c 0%, #95be48 46%, #8fa85d 100%);
+  font-family: 'Nunito', sans-serif; }
   .direccion__socialMedia {
     display: flex;
     align-items: center;

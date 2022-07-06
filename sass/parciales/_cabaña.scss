@@ -1,10 +1,11 @@
 .cabaña {
-    font-size: map-get($fuente, pequeño );
+    font-size:16px;
+    font-family:'Nunito', sans-serif;
+    color:map-get($colores, color);
     margin-left: 3rem;
     margin-top: 4rem;
     grid-area: cabaña;
 &__titulo {
-        margin: 1rem;
         text-decoration: underline;
       }   
  &__planta {

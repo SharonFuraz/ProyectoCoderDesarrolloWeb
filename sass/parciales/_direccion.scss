@@ -1,6 +1,7 @@
 .direccion {
     background: map-get($colores,sustituto ) ;
     background:map-get($colores,direcciongradiente ) ;
+    font-family:'Nunito', sans-serif;
 &__socialMedia{
   display: flex;
   align-items: center;

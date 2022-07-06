@@ -1,5 +1,6 @@
 .index {
     background: map-get($colores, greenbackground);
+    font-family:'Nunito', sans-serif;
       &__descripcion {
         position: absolute;
         left: 0;

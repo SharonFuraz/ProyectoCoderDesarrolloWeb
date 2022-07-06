@@ -1,5 +1,6 @@
 .contacto {
     background-color: map-get($colores, greenbackground );
+    font-family:'Nunito', sans-serif;
     &__itemFormulario {
         margin: 0.4rem 2rem 0.4rem 2rem;
         background-color: map-get($colores,formulariobackground );

@@ -1,10 +1,21 @@
 .cabañas{
     background-color: map-get($colores,greenbackground);
+    font-family:'Nunito', sans-serif;
+&__titulo{
+  @include link (bolder,map-get($colores,color));
+  padding-left: 38rem;
+  padding-top: 2rem;
+  text-decoration: underline;
+}
 &__nav {
-        padding-top: 3rem;
+        padding-top: 1rem;
       }
+&__item{
+  font-size: map-get($fuente, mediano );
+}
 &__link:hover {
-  @include link (map-get($colores,color),bolder)
+  border-bottom: rgb(107, 106, 106) solid 2px;
+  color: map-get($colores, hovernav )
       }
  &__link {
   color: map-get($colores,color);

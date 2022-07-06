@@ -28,7 +28,7 @@ $fuente:(
         font: #{$value}
     }
 }
-@mixin link( $color, $font-weight){
+@mixin link( $color,$font-weight){
     color:map-get($colores,color);
     font-weight: bolder;
     font-weight: bold;
