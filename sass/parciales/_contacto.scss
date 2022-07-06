@@ -1,6 +1,11 @@
 .contacto {
-    background-color: map-get($colores, greenbackground );
+    background-image:url(../Assets/plantascostas.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     font-family:'Nunito', sans-serif;
+    color: map-get($colores, color );
     &__itemFormulario {
         margin: 0.4rem 2rem 0.4rem 2rem;
         background-color: map-get($colores,formulariobackground );
@@ -26,7 +31,9 @@
         margin-bottom: 2rem;
       }
       &__infoDeContacto {
-        margin-bottom: 4rem;
+        color: map-get($colores, color );
+        padding-top: 2rem;
+        text-decoration: underline;
       }
   }
   

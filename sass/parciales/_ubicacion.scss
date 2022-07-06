@@ -7,6 +7,11 @@
     font-size: map-get($fuente, mediano );
     @include link ( bold,map-get($colores,color));
     padding-bottom: 10rem;
+    color: map-get($colores, color );
+    font-family:'Nunito', sans-serif;
+&__texto{
+    margin-top: 1rem;
+}
 &__mapaCabañas {
         width: 40rem;
         height:30rem;

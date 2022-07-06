@@ -1,6 +1,7 @@
 .index {
     background: map-get($colores, greenbackground);
     font-family:'Nunito', sans-serif;
+    color: map-get($colores, color);
       &__descripcion {
         position: absolute;
         left: 0;
@@ -20,13 +21,14 @@
         opacity: 1.5;
       }
       &__playa {
-        background-image: url(../Assets/CostaPlaya1.jpg);
+        background-image: url(../Assets/marsolojpg.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: fixed;
         background-size: cover;
         font-size: map-get($fuente , medium );
-        @include link (bolder,map-get($colores,color));
+        color: white;
+        text-shadow: black 6px 4px 6px;
         }
       &__cabañas {
         list-style: none;

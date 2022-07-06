@@ -1,5 +1,6 @@
 .barra{
   font-family:'Nunito', sans-serif;
+  color: map-get($colores, color);
 &__logoElComienzo {
         width: 10rem;
       }

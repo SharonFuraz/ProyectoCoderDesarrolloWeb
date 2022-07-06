@@ -2,6 +2,7 @@
     padding: 6rem 0;
     background-color: map-get($colores,whitebackground);
     font-family:'Nunito', sans-serif;
+    color: map-get($colores, color );
     &__foto{
         border:map-get($colores,border)
     }

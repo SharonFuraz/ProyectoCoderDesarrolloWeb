@@ -56,7 +56,7 @@
     .cabaña{
       margin-left: 1rem;
     }
-     }
+    }
   
   /* Medium*/
   @media screen and (max-width: 768px) {
@@ -91,23 +91,13 @@
           }
 
     }
+  }
     .servicios{
         &__container {
             display: flex;
             flex-direction:column;
           }
      }
-    .ubicacion{
-        &__mapaCabañas{
-            width: 20rem;
-            height:15rem; }
-          
-        &_mapa:hover {
-              display: none;
-            }
-        }
-    }
-  
   /* Medium*/
   @media screen and (min-width: 768px) {
     .index{
@@ -126,4 +116,4 @@
             margin-right: 2rem;
           }
         }
-    }
+  }
