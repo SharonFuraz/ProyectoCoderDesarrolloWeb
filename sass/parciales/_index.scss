@@ -17,9 +17,6 @@
         transition: 0.5s opacity ease-in-out;
         opacity: 0;
       }
-      &__cabañas:hover &__descripcion {
-        opacity: 1.5;
-      }
       &__playa {
         background-image: url(../Assets/marsolojpg.jpg);
         background-repeat: no-repeat;
@@ -40,10 +37,13 @@
         position: relative;
         margin: 1px 0;
       }
+      &__cabañas:hover &__descripcion {
+        opacity: 1.5;
+      }
       &__foto {
         width: 20rem;
        border:map-get($colores,border);
         transition: 2s transform;
         display: block;
       }
-  }
+    }

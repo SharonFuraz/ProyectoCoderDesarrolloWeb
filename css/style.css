@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*reseteo de css*/
-@import url("https://fonts.googleapis.com/css2?family=Arima:wght@400;500&family=Montserrat:wght@100;200&family=Nunito:ital,wght@0,200;0,300;0,400;1,300;1,400&family=Raleway:ital,wght@0,200;1,100&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@400;500&family=Nunito:ital,wght@0,200;0,300;0,400;1,300;1,400&family=Roboto:wght@400;700&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -74,8 +74,6 @@
     font-family: sans-serif;
     transition: 0.5s opacity ease-in-out;
     opacity: 0; }
-  .index__cabañas:hover .index__descripcion {
-    opacity: 1.5; }
   .index__playa {
     background-image: url(../Assets/marsolojpg.jpg);
     background-repeat: no-repeat;
@@ -93,6 +91,8 @@
     overflow: hidden;
     position: relative;
     margin: 1px 0; }
+  .index__cabañas:hover .index__descripcion {
+    opacity: 1.5; }
   .index__foto {
     width: 20rem;
     border: #578e3e solid 0.5rem;
